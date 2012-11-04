@@ -2,4 +2,5 @@
 title: nanowrimo2012 (working title)
 ---
 
-hello, world
+* (Story)[/story.html]
+* (System)[/system.html]
