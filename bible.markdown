@@ -1,6 +1,6 @@
 ---
 layout: default
-title: story bible
+title: storybible
 ---
 
 = Characters
@@ -12,7 +12,7 @@ reddish braided beard.
 
 == Thelos
 
-Thelos studies Alchemy with his master Anrun. Unknown to most
+Thelos studies Alchemy with his master Anrun in Aulwood. Unknown to most
 he is also trained and used as an assassin by Anrun. He is not completly at ease
 with his profession and thinks about quitting and fleeing far away.
 

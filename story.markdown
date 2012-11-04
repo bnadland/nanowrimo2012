@@ -1,20 +1,39 @@
 ---
 layout: default
-title: Nanowrimo 2012 Novel
+title: novel
 ---
 
 Gorza panted. She had tracked the beast for four days through the thickest woods
 she had seen so far. She felt the hunt coming to an end for better or worse.
 
-A movement in the edge of her vision spun her around readying her bow. A couple of meters
-away was the red-eyed, dirt-stained boar. With his tusked head raised he was nearly as high
-as her shoulder.
+A movement in the edge of her vision spun her around readying her bow. A couple
+of meters away was the red-eyed, dirt-stained boar. With his tusked head raised
+he was nearly as high as her shoulder.
 
-She let the arrow fly in a quick movement and dropped the bow. Unsheathing the sword on her hip,
-she watched the projectile pierce his neck.
+She let the arrow fly in a quick movement and dropped the bow. Unsheathing the
+sword on her hip, she watched the projectile pierce his neck.
 
-Now bleeding, the boar was furious and charged at her with his head lowered and his tusks dangerously glimming
-in the evening twilight. She jumped. Landed on her side and thrust her steel in the direction of the running beast.
+Now bleeding, the boar was furious and charged at her with his head lowered and
+his tusks dangerously glimming in the evening twilight. She jumped. Landed on
+her side and thrust her steel in the direction of the running beast.
 
-The sword jerked from her hand when it connected with the head. The beast howled. She staggered to a low stand and drew
-her dagger from its ankle sheath.
+The sword jerked from her hand when it connected with the head. The beast
+howled. She staggered to a low stand and drew her dagger from its ankle sheath.
+A swift motion and the blade pierced the left eye. She pushed it further into
+the brain and finally the beast fell to the ground.
+
+She cleaned her dagger and recollected bow and sword. Finally she took another
+look at the boar. The hunt lasted for a few days now. The monster was possessed
+like so many that she killed in the last years since she left her village.
+
+But she was not done yet.
+
+---
+
+Romin moaned. He was tired. Walking all day is not something he enjoyed. But he
+promised his father to bring that potion to the neighbouring villages
+blacksmith. He stopped and leaned on his wandering staff. It was oaken and a tad
+bit taller than him. His father gave it to him a few years ago when he started
+to take him on his walks to the neighbouring villages.
+
+
