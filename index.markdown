@@ -1,4 +1,5 @@
 ---
+layout: default
 title: nanowrimo2012 (working title)
 ---
 
