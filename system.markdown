@@ -18,7 +18,6 @@ Design Goals:
 * Resistances (physical/fire/...)
 * Skills
 * Feats
-
 * Weapons
 * Armor
 * Potions (one time use)
@@ -30,20 +29,16 @@ Design Goals:
 * Toughness
 * Will/Discipline
 * Defense/Parrying (think Armor Class)
-
 * Stealth
 * Athletics
 * Knowledge
 * Diplomacy
-
 * Alchemy/Craft (item creation)
-
 * Sword
 * Axe
 * Hammer
 * Bow
 * Spear
-
 * Cure (healing, curing)
 * Summon
 * Shadow (Invisibility)
