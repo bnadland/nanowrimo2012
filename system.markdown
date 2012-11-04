@@ -15,7 +15,7 @@ Design Goals:
 
 * Health Points
 * Chaos Points
-* Resistances (physical, fire, <powersource>)
+* Resistances (physical/fire/...)
 * Skills
 * Feats
 
