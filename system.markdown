@@ -2,7 +2,9 @@
 title: RPG System
 ---
 
-Design Goals:
+# System
+
+## Design Goals:
 
 * d20 based (with d4,d6,d8,d10,d12,d100 sprinkled inbetween)
 * D&D like equipment mongering
