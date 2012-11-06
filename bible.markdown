@@ -3,7 +3,7 @@ layout: default
 title: storybible
 ---
 
-= Characters
+# Characters
 
 * The character's name
 * Outfit/Equipment/Look
@@ -14,18 +14,14 @@ title: storybible
 * The character's epiphany (what will he/she learn, how will he/she change?
 * A one-paragraph summary of the character's storyline
 
----
-
-== Ingron
+## Ingron
 
 Ingron is an devoted archaeologist. He has brown hair and a long
 reddish braided beard.
 
 Spear. Hammer.
 
----
-
-== Thelos
+## Thelos
 
 Thelos studies Alchemy with his master Anrun in Aulwood. Unknown to most
 he is also trained and used as an assassin by Anrun. He is not completly at ease
@@ -33,9 +29,7 @@ with his profession and thinks about quitting and fleeing far away.
 
 Daggers.
 
----
-
-== Gorza
+## Gorza
 
 Gorza lived as a fisher in her small village by the river until a demonboar killed
 her husband and destroyed part of the settlement. She swoar vengeance and hunted it
@@ -45,9 +39,7 @@ Wears ranger cloth. Short bow, short sword, dagger.
 
 Has a conch dangling from her belt.
 
----
-
-== Romin
+## Romin
 
 Romin spent his youth reading. His father was a wizard that settled down to
 build a library, study and be the neighbouring villages 'wise man'.
@@ -59,16 +51,12 @@ a famous warrior one day.
 
 Wears a sword and his oaken staff.
 
----
-
-== Anrun
+## Anrun
 
 Alchemy master and assassin. Head of the rebellion.
 
----
+# Places
 
-= Places
-
-== Aulwood
+## Aulwood
 
 Bigger city. Home of Thelos and Anrun.
