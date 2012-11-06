@@ -14,12 +14,16 @@ title: storybible
 * The character's epiphany (what will he/she learn, how will he/she change?
 * A one-paragraph summary of the character's storyline
 
+---
+
 == Ingron
 
 Ingron is an devoted archaeologist. He has brown hair and a long
 reddish braided beard.
 
 Spear. Hammer.
+
+---
 
 == Thelos
 
@@ -28,6 +32,8 @@ he is also trained and used as an assassin by Anrun. He is not completly at ease
 with his profession and thinks about quitting and fleeing far away.
 
 Daggers.
+
+---
 
 == Gorza
 
@@ -38,6 +44,8 @@ down. She spent her time afterwards as monster hunter for villages in need.
 Wears ranger cloth. Short bow, short sword, dagger.
 
 Has a conch dangling from her belt.
+
+---
 
 == Romin
 
@@ -51,9 +59,13 @@ a famous warrior one day.
 
 Wears a sword and his oaken staff.
 
+---
+
 == Anrun
 
 Alchemy master and assassin. Head of the rebellion.
+
+---
 
 = Places
 
