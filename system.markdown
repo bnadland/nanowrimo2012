@@ -3,6 +3,8 @@ layout: default
 title: RPG System
 ---
 
+*temporary discontinued*
+
 # System
 
 ## Design Goals:
