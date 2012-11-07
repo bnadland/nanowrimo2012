@@ -3,14 +3,13 @@ layout: default
 title: RPG System
 ---
 
-*temporary discontinued*
-
 # System
 
 ## Design Goals:
 
-* d20 based (with d4,d6,d8,d10,d12,d100 sprinkled inbetween)
-* D&D like equipment mongering
+* mostly d20 based (with d4,d6,d8,d10,d12,d100 sprinkled inbetween)
+* D&D like saturation with magical items
+* streamlined equipment and resource managements
 * tactical fights without minis
 * flexible, balanced magic system
 * classless
@@ -20,17 +19,13 @@ title: RPG System
 
 * Health Points
 * Chaos Points
-* Resistances (physical/fire/...)
 * Skills
 * Feats
-* Weapons
-* Armor
-* Potions (one time use)
-(most Potions poison you, aka cost you Chaos Points)
-* Talismans (reuseable) (reduce your maximum chaos points)
+* Flaws
 
 ## Skills
 
+* Resistances (physical/fire/...)
 * Toughness
 * Will/Discipline
 * Defense/Parrying (think Armor Class)
@@ -73,6 +68,10 @@ Examples I want to see:
 * Invisibility
 * Riposte
 
+* Range (touch, ranged)
+* Target (point, explosion, line, ...)
+* Damage
+
 #### Rituals
 
 * A way to reduce chaos points ?
@@ -89,3 +88,18 @@ The only way to heal chaos points is to rest, no herbs, magic, etc.
 ## Hazards
 
 Poisoning cost you Chaos Points
+
+## Advancement
+
+Each encounter earns between 1-3 Heropoints. These are summed and
+given by the Gamemaster when the party has downtime (say in towns
+between sessions).
+
+These Heropoints are used to buy Skillupgrades and new Feats.
+
+## Equipment
+
+* Weapons
+* Armor (integrate into talismans?)
+* Potions (one time use) (most Potions poison you, aka cost you Chaos Points)
+* Talismans (reuseable) (reduce your maximum chaos points)
