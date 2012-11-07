@@ -68,10 +68,6 @@ Examples I want to see:
 * Invisibility
 * Riposte
 
-* Range (touch, ranged)
-* Target (point, explosion, line, ...)
-* Damage
-
 #### Rituals
 
 * A way to reduce chaos points ?
