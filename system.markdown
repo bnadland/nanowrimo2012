@@ -19,40 +19,40 @@ title: RPG System
 
 ## Character
 
-* Health Points (invested Heropoints x 5)
-* Chaos Points (invested Heropoints)
+A character is defined by the following crunch:
+
+* Healthpoints (invested Heropoints x 5)
+* Chaospoints (invested Heropoints)
 * Skills
 * Feats
 * Flaws
+* Loadout (equipment on your character, always available)
+* Equipment (equipment in your backpack, ...)
 
 ### Skills
 
-* Resistances (physical/fire/...)
-* Toughness
-* Will/Discipline
-* Defense/Parrying (think Armor Class)
+* [Resistance] (physical/fire/... think Armor Class for Special Abilities and Spells)
+* Toughness (=> Healthpoints?)
+* Will/Discipline (=> Chaospoints?)
+* Defense/Parrying (think Armor Class?)
 * Stealth
 * Athletics
 * Knowledge
-* Diplomacy
-* Alchemy/Craft (item creation)
-* Sword
-* Axe
-* Hammer
-* Bow
-* Spear
+* Diplomacy (combat like system for this?)
+* Alchemy (item creation)
+* Profession (catchall for background story related abilities, that are not handled by other skills)
+* [Weapontype] (Sword, Axe, Hammer, Bow, Spear, ...)
 * Cure (healing, curing)
-* Summon
-* Shadow (Invisibility)
+* [Magictype] (Summon, Shadow, ...)
 
 ### Feats
 
-Feats only improve abilities they dont give additional tactical options (negative example: weapon finesse, power attack)
+Feats only improve abilities they dont give additional tactical options (negative examples: weapon finesse, power attack)
 
 ### Flaws
 
 Flaws give the the player additional Heropoints during character generation and the Gamemaster has additional hooks
-to add plots to the story.
+to add plots to the story. (Examples: Enemy, Mentor, ...)
 
 ## Setting
 
@@ -65,7 +65,7 @@ Limits of Magic are:
 * no time travel
 * no divination
 
-#### Powers
+#### Spells/Powers
 
 You expend Chaos Points to use these.
 
@@ -111,6 +111,9 @@ between sessions).
 These Heropoints are used to buy Skillpoints and additional Feats.
 
 ## Equipment
+
+Each character gets Resource Points that are an abstract way of handling money
+during gameplay.
 
 * Weapons (Damage and Maneuverboni: Small (1d6), Medium (1d10), Large (2d6); Damage Type: Bludgeoning, Piercing, Slashing)
 * Armor (integrate into talismans?)

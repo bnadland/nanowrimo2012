@@ -16,16 +16,12 @@ title: storybible
 
 ## Ingron
 
-Dwarf Cleric (Healing, Magic)
-
 Ingron is an devoted archaeologist. He has brown hair and a long
 reddish braided beard.
 
 Spear. Hammer.
 
 ## Thelos
-
-Elf Rogue
 
 Thelos studies Alchemy with his master Anrun in Aulwood. Unknown to most
 he is also trained and used as an assassin by Anrun. He is not completly at ease
@@ -34,8 +30,6 @@ with his profession and thinks about quitting and fleeing far away.
 Daggers.
 
 ## Gorza
-
-Half-Orc Ranger
 
 Gorza lived as a fisher in her small village by the river until a demonboar killed
 her husband and destroyed part of the settlement. She swoar vengeance and hunted it
@@ -46,8 +40,6 @@ Wears ranger cloth. Short bow, short sword, dagger.
 Has a conch dangling from her belt.
 
 ## Romin
-
-Human Wizard
 
 Romin spent his youth reading. His father was a wizard that settled down to
 build a library, study and be the neighbouring villages 'wise man'.
