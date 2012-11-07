@@ -7,7 +7,7 @@ title: RPG System
 
 ## Design Goals:
 
-* mostly d20 based (with d6,d10 and maybe other dice aswell)
+* mostly d20 based (with d6 and maybe other dice aswell)
 * D&D like saturation with magical items
 * streamlined equipment and resource managements
 * tactical fights without minis
@@ -69,7 +69,7 @@ Limits of Magic are:
 
 You expend Chaos Points to use these.
 
-Note: Look into the Universal Monster Rules
+Note: Look into the Universal Monster Rules for inspiration
 
 Examples I want to see:
 
@@ -78,10 +78,11 @@ Examples I want to see:
 * Lightning
 * Barriers
 * Berserker Rage
-* Invisibility
+* Invisibility/Camouflage
+* Sneak Attack (?)
 
-The spelllist should be a range of examples generated from abstract rules that are included
-to generate own spells.
+The list of spell should be a range of examples generated from abstract rules that are included
+to generate own spells and powers.
 
 #### Additional Concepts
 
@@ -95,8 +96,22 @@ Basic roll: 1d20+Skill against DC
 
 ### Combat
 
+You roll Initiative for each participant (d20 + Boni).
+
+Each turn you have 1 Move and 1 Action.
+
 20 is an automatic success (and critical hit?).
 1 is a botch. (For ranged weapons this means out of ammo for this encounter.)
+
+Move:
+
+* Move (up to 5m)
+
+Action:
+
+* another Move Action
+* Attack (Skill:[Weapontype] + d20 + Boni against Defense of Enemy)
+* Power (Skill:[Magictype] + d20 + Boni against Resistance of Enemy)
 
 ## Hazards
 
@@ -115,7 +130,7 @@ These Heropoints are used to buy Skillpoints and additional Feats.
 Each character gets Resource Points that are an abstract way of handling money
 during gameplay.
 
-* Weapons (Damage and Maneuverboni: Small (1d6), Medium (1d10), Large (2d6); Damage Type: Bludgeoning, Piercing, Slashing)
+* Weapons (Damage and Maneuverboni: Small (1d6), Medium (2d6), Large (3d6); Damage Type: Bludgeoning, Piercing, Slashing)
 * Armor (integrate into talismans?)
 * Potions (one time use) (most Potions poison you, aka cost you Chaos Points)
 * Talismans (reuseable) (reduce your maximum chaos points)
