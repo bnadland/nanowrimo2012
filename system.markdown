@@ -14,6 +14,7 @@ title: RPG System
 * flexible, balanced magic system
 * classless
 * simple tracking of fights (no status/conditions/... effects)
+* Feats only improve abilities they dont give additional tactical options (negative example: weapon finesse, power attack)
 
 ## Character
 
