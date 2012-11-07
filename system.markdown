@@ -14,7 +14,7 @@ title: RPG System
 * flexible, balanced magic system
 * classless
 * simple tracking of fights (no status/conditions/... effects)
-* Feats only improve abilities they dont give additional tactical options (negative example: weapon finesse, power attack)
+* quick, randomizable way to generate monster and NPCs
 
 ## Character
 
@@ -24,7 +24,7 @@ title: RPG System
 * Feats
 * Flaws
 
-## Skills
+### Skills
 
 * Resistances (physical/fire/...)
 * Toughness
@@ -43,6 +43,15 @@ title: RPG System
 * Cure (healing, curing)
 * Summon
 * Shadow (Invisibility)
+
+### Feats
+
+Feats only improve abilities they dont give additional tactical options (negative example: weapon finesse, power attack)
+
+### Flaws
+
+Flaws give the the player additional Heropoints during character generation and the Gamemaster has additional hooks
+to add plots to the story.
 
 ## Setting
 
@@ -71,12 +80,11 @@ Examples I want to see:
 The spelllist should be a range of examples generated from abstract rules that are included
 to generate own spells.
 
-#### Rituals
+#### Additional Concepts
 
-* A way to reduce chaos points ?
-* Healing
-
-#### Item creation
+* Rituals
+* Item creation
+* Research
 
 ## Gameplay
 
