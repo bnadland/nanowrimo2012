@@ -90,8 +90,6 @@ to generate own spells.
 
 1d20+Skill >= DC
 
-The only way to heal chaos points is to rest, no herbs, magic, etc.
-
 ## Hazards
 
 Poisoning cost you Chaos Points
