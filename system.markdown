@@ -66,7 +66,9 @@ Examples I want to see:
 * Barriers
 * Berserker Rage
 * Invisibility
-* Riposte
+
+The spelllist should be a range of examples generated from abstract rules that are included
+to generate own spells.
 
 #### Rituals
 
