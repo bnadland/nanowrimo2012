@@ -1,5 +1,6 @@
 nav {
 background-color: #ffffc2;
+border: 1px brown solid;
 padding: 1em;
 border-radius: 1em;
 }
@@ -9,9 +10,11 @@ color: brown;
 text-decoration: none;
 font-variant: small-caps;
 font-weight: bold;
+padding-left: 1em;
 }
 
 article {
+border: 1px brown solid;
 border-radius: 1em;
 background-color: #ffffc2;
 padding: 1em;

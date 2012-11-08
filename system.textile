@@ -42,7 +42,8 @@ h3. Creation
 h3. Skills
 
 * Resistance[Type] (physical/fire/... think Armor Class for Attacks, Special Abilities and Spells)
-* Stealth
+* Stealth (Sneaking, Hiding, ...)
+* Security (Lockpicking, Disabling Devices, ...)
 * Athletics
 * Knowledge
 * Culture[Type] (Human, Elf, Dwarf, Orc) (works as Diplomacy and Knowledge regarding this culture)
@@ -61,6 +62,7 @@ Feats only improve abilities they dont give additional tactical options (negativ
 h3. Flaws
 
 Flaws have negative and positive effects and provide the Gamemaster with potential plot hooks.
+(Enemies, Mentor, Organizational ties, ...)
 
 h2. Setting
 
