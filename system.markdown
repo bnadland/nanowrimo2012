@@ -7,13 +7,13 @@ title: RPG System
 
 ## Design Goals:
 
-* mostly d20 based (with d6 and maybe other dice aswell)
+* d20 based (with d6 and maybe other dice aswell)
 * D&D like saturation with magical items
 * streamlined equipment and resource managements
 * tactical fights without minis
 * flexible, balanced magic system
 * classless
-* simple tracking of fights (no status/conditions/... effects)
+* simple tracking of fights (minimal status/conditions/... effects)
 * quick, randomizable way to generate monster and NPCs
 * different energy and damage sources for resistances and attacks
 
@@ -21,42 +21,54 @@ title: RPG System
 
 A character is defined by the following crunch:
 
-* Healthpoints (invested Heropoints x 5)
-* Chaospoints (invested Heropoints)
+* Healthpoints
+* Chaospoints
 * Skills
 * Feats
 * Flaws
-* Loadout (equipment on your character, always available)
-* Equipment (equipment in your backpack, ...)
+* Equipment (equipment on your character, available with one standard action for drawing it) (5 Slots, +1 (10 Heropoints))
+* Items (equipment in your backpack, ...)
+
+### Creation
+
+20 Healthpoints
+10 Chaospoints
+20 Skillpoints
+1 Feat
+1 Power
+1 Flaw
+10 Resourcepoints for Equipment and Items
 
 ### Skills
 
-* [Resistance] (physical/fire/... think Armor Class for Special Abilities and Spells)
-* Toughness (=> Healthpoints?)
-* Will/Discipline (=> Chaospoints?)
-* Defense/Parrying (think Armor Class?)
+* Resistance[Type] (physical/fire/... think Armor Class for Attacks, Special Abilities and Spells)
 * Stealth
 * Athletics
 * Knowledge
-* Diplomacy (combat like system for this?)
+* Culture[Type] (Human, Elf, Dwarf, Orc) (works as Diplomacy and Knowledge regarding this culture)
 * Alchemy (item creation)
-* Profession (catchall for background story related abilities, that are not handled by other skills)
-* [Weapontype] (Sword, Axe, Hammer, Bow, Spear, ...)
+* Profession[Type?] (catchall for background story related abilities, that are not handled by other skills)
+* Weapon[Type] (Blunt, Piercing, Edged, Ranged)
 * Cure (healing, curing)
-* [Magictype] (Summon, Shadow, ...)
+* Magic[Type] (Summon, Shadow, ...)
 
 ### Feats
 
 Feats only improve abilities they dont give additional tactical options (negative examples: weapon finesse, power attack)
 
+* Sneak Attack (improves the damage output in cases of combat advantage (+d6 per feat level))
+
 ### Flaws
 
-Flaws give the the player additional Heropoints during character generation and the Gamemaster has additional hooks
-to add plots to the story. (Examples: Enemy, Mentor, ...)
+Flaws have negative and positive effects and provide the Gamemaster with potential plot hooks.
 
 ## Setting
 
 Orcs/Elves/Humans/Dwarfs are considered different cultures.
+
+### Orc
+
+see Atayal on wikipedia
 
 ### Magic/Chaos
 
@@ -79,7 +91,7 @@ Examples I want to see:
 * Barriers
 * Berserker Rage
 * Invisibility/Camouflage
-* Sneak Attack (?)
+* Shapeshifting
 
 The list of spell should be a range of examples generated from abstract rules that are included
 to generate own spells and powers.
@@ -98,20 +110,53 @@ Basic roll: 1d20+Skill against DC
 
 You roll Initiative for each participant (d20 + Boni).
 
-Each turn you have 1 Move and 1 Action.
-
 20 is an automatic success (and critical hit?).
-1 is a botch. (For ranged weapons this means out of ammo for this encounter.)
+1 is a botch.
 
-Move:
+Each turn you have 1 Move action and 1 Combat action.
+
+#### Move action
 
 * Move (up to 5m)
 
-Action:
+#### Combat action
 
-* another Move Action
-* Attack (Skill:[Weapontype] + d20 + Boni against Defense of Enemy)
-* Power (Skill:[Magictype] + d20 + Boni against Resistance of Enemy)
+##### Sprint
+
+Effect:
+* move up to 5m
+* +2 physical defense this round
+
+##### Defend
+
+Effect:
+* +4 physical defense this round
+
+##### Charge (move up to 5m and attack with -4)
+
+##### Attack (Skill:[Weapontype] + d20 + Boni against Defense of Enemy)
+
+##### Power (Skill:[Magictype] + d20 + Boni against Resistance of Enemy)
+
+##### Disarm
+
+Condition:
+* an enemy in attack range wields a removable weapon
+
+Effect:
+* the weapon drops on the ground
+
+##### Draw Weapon/Equipment
+
+#### Combat Advantage
+
+Condition: (OR)
+* the enemy cannot see you
+* you are flanking him 
+* he is unable to properly defend himself
+* he did not have his first action this encounter
+
+Effect: +2 on attack rolls
 
 ## Hazards
 
@@ -119,18 +164,43 @@ Poisoning cost you Chaos Points
 
 ## Advancement
 
-Each encounter earns between 1-3 Heropoints. These are summed and
+Each encounter earns between 1-3 XP. These are summed and
 given by the Gamemaster when the party has downtime (say in towns
 between sessions).
 
-These Heropoints are used to buy Skillpoints and additional Feats.
+* 1 Skill (new level in XP)
+* 1 Feat (new level in XP x10)
+* 1 Healthpoints (5 XP)
+* 1 Chaospoints (1 XP)
 
-## Equipment
+## Equipment & Items
 
 Each character gets Resource Points that are an abstract way of handling money
 during gameplay.
 
-* Weapons (Damage and Maneuverboni: Small (1d6), Medium (2d6), Large (3d6); Damage Type: Bludgeoning, Piercing, Slashing)
-* Armor (integrate into talismans?)
-* Potions (one time use) (most Potions poison you, aka cost you Chaos Points)
-* Talismans (reuseable) (reduce your maximum chaos points)
+### Weapons
+
+Size (Damage): One-Handed (1d6),  Two-Handed (2d6)
+Weapontype: Edged, Piercing, Blunt, Ranged
+Special: Boni on specific actions, Effects on critical or botched attacks
+
+* Longsword (1H, Edged)
+* Dagger (1H, Piercing/Ranged)
+* Battleaxe (1H, Edged)
+* Staff (2H, Blunt)
+* Battlehammer (1H, Blunt)
+* Bow (2H, Ranged) (out-of-ammo for this encounter on botch)
+* Spear (2H, Piercing/Ranged)
+* Twohanded Axe (2H, Edged)
+* Twohanded Sword (2H, Edged)
+* Goblinsword (1H, Edged) (breaks on botch)
+
+### Potions 
+
+* one time use 
+* most Potions poison you, aka cost you Chaos Points
+
+### Artefacts
+
+* reuseable magic items
+* reduce your maximum chaos points
