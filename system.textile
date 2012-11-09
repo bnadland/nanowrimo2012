@@ -337,12 +337,16 @@ Earned Karma is given.
 h2. Ideas and Todos
 
 * Rules for retreating from an encounter
+* Can one equip additional bows or quiver to "survive" botches?
+* Guidelines what happens if characters take many Day rests during Adventures
 * Travel and Exploration rules
 * Diplomacy
 * Creature generation rules
 * Botch while casting
+* What happens when Chaospoints are reduced to zero?
+* What happens when Healthpoints are reduced to zero?
 * Powers
-* Mysticism: Dispel Magic
-* Resistance[Dodge] vs Resistance[Edged,Piercing,Blunt,Ranged]
-* Reputation/Glory rules (for example using Resourcepoints to increase Reputation)
-* Profession skills
+* Mysticism: Dispel Magic (probably as a ritual)
+* Resistance[Dodge] vs Resistance[Edged,Piercing,Blunt,Ranged] ?
+* Reputation/Glory rules (for example using Resourcepoints to increase Reputation) ?
+* Profession skills?
