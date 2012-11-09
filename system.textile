@@ -84,7 +84,7 @@ Limits of Magic are:
 h3. Base Parameter
 
 Range: Self, Touch (+ 2), Sight (+ 4)
-Area: Point, Ball (+ 2 per m^3)
+Area: Point, Ball (+ 2 per m³)
 Preparation: + 1 Round (-1) (max skill lvl)
 Duration: Round, Encounter (+ 4), Day (+ 8)
 Magictype: + 1 Magictype (+ 1)
