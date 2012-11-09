@@ -8,7 +8,7 @@ h1. System
 h2. Design Goals:
 
 * d20 based (with d6 and maybe other dice aswell)
-* D&D like saturation with magical items
+* lots of interesting magical items
 * streamlined equipment and resource managements
 * tactical fights without minis
 * flexible, balanced magic system
@@ -38,7 +38,7 @@ h3. Creation
 4x Skill Lvl2
 4x Skill Lvl1
 1x Feat Lvl1
-1x Power
+1x Spell
 1x Flaw
 
 5 Equipmentslots
@@ -81,15 +81,86 @@ Limits of Magic are:
 * no time travel
 * no divination
 
-h3. Spells/Powers
+h3. Base Parameter
 
-You expend Chaos Points to use these.
+Range: Self, Touch (+ 2), Sight (+4)
+Area: Point, Ball (+ 2 per m^3)
+Preparation: + 1 Round (-1) (max skill lvl)
+Duration: Round, Encounter (+ 4), Day (+ 8)
+Magictype: + 1 Magictype (+ 1)
 
-Note: Clarify difference between Spell and Power
+h3. Casting
 
-Note: Look into the Universal Monster Rules for inspiration
+Roll d20 + Skill against 10 + Parametermodifier
+Skill => lowest involved Magictypeskill
 
-Examples I want to see:
+If touch or sight ist targeted against a Creature add its Resistance[Dodge] to Parametermodifier
+If spell is also a damage spell add its Resistance[Type] to Parametermodifier too
+
+* Natural 1: Botch
+* Below DC: Parametermodifier in Chaospoints (minimum 1)
+* Above DC: 1 Chaospoint
+* Natural 20: no Chaospoint cost 
+
+h3. Types of Magic
+
+h4. Illusion
+
+spells that alter perception, such as Invisibility and Charm.
+Skill: + 5 Stealth (+ 2)
+Skill: + 5 Culture (+ 2)
+
+h4. Conjuration
+
+spells that summon creatures and equipment from other worlds, such as Bound Items and Summon.
+Summon Daemon: + 1 Creature Level (+ 2)
+
+h4. Alteration
+
+spells that manipulate the laws of nature, such as Water Breathing and Levitation.
+Skill: + 5 Athletics (+ 2)
+Skill: + 5 Security (+ 2)
+
+h4. Destruction
+
+spells that cause physical harm, such as Fire Damage and Damage Attribute.
+Damage[Fire]: + 1d6 (+ 2)
+Damage[Schock]: + 1d6 (+ 2)
+Damage[Frost]: + 1d6 (+ 2)
+Skill: + 5 Weapon[Edged] (+ 2)
+Skill: + 5 Weapon[Piercing] (+ 2)
+Skill: + 5 Weapon[Blunt] (+ 2)
+Skill: + 5 Weapon[Ranged] (+ 2)
+
+h4. Mysticism
+
+spells that shape and focus ethereal forces, such as Telekinesis and Soultrap.
+Damage[Chaos]: + 1d6 (+ 2)
+Skill: -5 Resistance[Chaos] (+ 2)
+Skill: -5 Resistance[Schock] (+ 2)
+Skill: -5 Resistance[Frost] (+ 2)
+Skill: -5 Resistance[Fire] (+ 2)
+Skill: -5 Resistance[Dodge] (+ 2)
+Telekinesis: + 1kg (+ 1), + 1m/per Round (+ 1)
+
+h4. Restoration
+
+spells that heal, such as Restore Health and Cure Common Disease.
+Heal: + 1d6 HP (+ 2)
+Cure Disease: + 4
+Skill: + 5 Resistance[Chaos] (+ 2)
+Skill: + 5 Resistance[Fire] (+ 2)
+Skill: + 5 Resistance[Frost] (+ 2)
+Skill: + 5 Resistance[Shock] (+ 2)
+Skill: + 5 Resistance[Dodge] (+ 2)
+
+h3. Spells
+
+A Spell is a prepackaged effect.
+You cannot modify it when casting and need to expend Karma to learn it.
+But the Parametermodifier is reduced.
+
+Example Spells I want to see:
 
 * Push/Pull/Telekinesis
 * Fireball
@@ -99,81 +170,6 @@ Examples I want to see:
 * Invisibility/Camouflage
 * Shapeshifting
 
-The list of spell should be a range of examples generated from abstract rules that are included
-to generate own spells and powers.
-
-h4. Base Parameter
-
-Cost: 1 CP
-Range: Self, Touch (+2), Sight (+4)
-Area: Point, Ball (+2 per m³)
-Preparation: +1 Round (-1) (max skill lvl)
-Duration: Round, Encounter (+4), Day (+8)
-
-h4. Casting
-
-Roll d20 + Skill against 10 + Parametermodifier
-
-If touch or sight ist targeted against a Creature add its Resistance[Dodge] to Parametermodifier
-If spell is also a damage spell add its Resistance[Type] to Parametermodifier too
-
-* Natural 1: Botch 
-* Below DC: Parametermodifier in Chaospoints
-* Above DC: 1 Chaospoint
-* Natural 20: no Chaospoint cost 
-
-h4. Types of Magic
-
-h5. Illusion
-
-spells that alter perception, such as Invisibility and Charm.
-Skill: +5 Stealth (+2)
-Skill: +5 Culture (+2)
-
-h5. Conjuration
-
-spells that summon creatures and equipment from other worlds, such as Bound Items and Summon.
-Summon Daemon: +1 Creature Level (+2)
-
-h5. Alteration
-
-spells that manipulate the laws of nature, such as Water Breathing and Levitation.
-Skill: +5 Athletics (+2)
-Skill: +5 Security (+2)
-
-h5. Destruction
-
-spells that cause physical harm, such as Fire Damage and Damage Attribute.
-Damage[Fire]: +1d6 (+2)
-Damage[Schock]: +1d6 (+2)
-Damage[Frost]: +1d6 (+2)
-Skill: +5 Weapon[Edged] (+2)
-Skill: +5 Weapon[Piercing] (+2)
-Skill: +5 Weapon[Blunt] (+2)
-Skill: +5 Weapon[Ranged] (+2)
-
-h5. Mysticism
-
-spells that shape and focus ethereal forces, such as Telekinesis and Soultrap.
-Damage[Chaos]: +1d6 (+2)
-Skill: -5 Resistance[Chaos] (+2)
-Skill: -5 Resistance[Schock] (+2)
-Skill: -5 Resistance[Frost] (+2)
-Skill: -5 Resistance[Fire] (+2)
-Skill: -5 Resistance[Dodge] (+2)
-Telekinesis: +1kg (+1), +1m/per Round (+1)
-
-h5. Restoration
-
-spells that heal, such as Restore Health and Cure Common Disease.
-Heal: +1d6 HP (+2)
-Cure Disease: +4
-Skill: +5 Resistance[Chaos] (+2)
-Skill: +5 Resistance[Fire] (+2)
-Skill: +5 Resistance[Frost] (+2)
-Skill: +5 Resistance[Shock] (+2)
-Skill: +5 Resistance[Dodge] (+2)
-
 h3. Additional Concepts
 
 * Rituals
@@ -182,11 +178,11 @@ h3. Additional Concepts
 
 h2. Gameplay
 
-Basic roll: 1d20+Skill against DC
+Basic roll: 1d20+ Skill against DC
 
 h3. Combat
 
-You roll Initiative for each participant (d20 + Boni).
+You roll Initiative for each participant (d20 +  Boni).
 
 20 is an automatic success (and critical hit?).
 1 is a botch.
@@ -203,18 +199,18 @@ h5. Sprint
 
 Effect:
 * move up to 5m
-* +2 physical defense this round
+* + 2 physical defense this round
 
 h5. Defend
 
 Effect:
-* +4 physical defense this round
+* + 4 physical defense this round
 
 h5. Charge (move up to 5m and attack with -4)
 
-h5. Attack (Skill:[Weapontype] + d20 + Boni against Defense of Enemy)
+h5. Attack (Skill:[Weapontype] +  d20 +  Boni against Defense of Enemy)
 
-h5. Power (Skill:[Magictype] + d20 + Boni against Resistance of Enemy)
+h5. Power (Skill:[Magictype] +  d20 +  Boni against Resistance of Enemy)
 
 h5. Disarm
 
@@ -240,7 +236,7 @@ Condition: (OR)
 * the Creature unable to properly defend himself
 * the Creature did not have his first action this encounter
 
-Effect: +2 on attack rolls
+Effect: + 2 on attack rolls
 
 h2. Hazards
 
@@ -273,10 +269,10 @@ h4. Edged
 h5. One handed
 * Longsword
 * Battleaxe
-* Goblinsword (1H, Edged) (botch: breaks)
+* Goblinsword (botch: breaks)
 h5. Two handed
-* Twohanded Axe (2H, Edged)
-* Twohanded Sword (2H, Edged)
+* Twohanded Axe
+* Twohanded Sword
 
 h4. Piercing
 h5. One handed
@@ -337,15 +333,12 @@ Earned Karma is given.
 
 h2. Glossary
 
-CP: Chaospoints
-HP: Healthpoints
 Karma: Experience
-RP: Resourcepoints
 Creature: Any sentient being (Monsters, NPC, Daemons, Characters)
 Party: A group of Characters
 Encounter: a fight or a scene during an adventure
 
-h2. TODO
+h2. Ideas and Todos
 
 * Rules for retreating from an encounter
 * Travel and Exploration rules
@@ -355,8 +348,5 @@ h2. TODO
 * Powers
 * Mysticism: Dispel Magic
 * Resistance[Dodge] vs Resistance[Edged,Piercing,Blunt,Ranged]
-
-h2. Ideas
-
-* Reputation/Glory rules (for example using RP to increase Reputation)
+* Reputation/Glory rules (for example using Resourcepoints to increase Reputation)
 * Profession skills
