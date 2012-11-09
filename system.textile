@@ -1,6 +1,6 @@
 ---
 layout: default
-title: RPG System
+title: System
 ---
 
 h1. System
@@ -26,40 +26,44 @@ A character is defined by the following crunch:
 * Skills
 * Feats
 * Flaws
-* Equipment (equipment on your character, available with one standard action for drawing it) (5 Slots, +1 (10 Heropoints))
+* Equipment (equipment on your character)
 * Items (equipment in your backpack, ...)
 
 h3. Creation
 
 20 Healthpoints
 10 Chaospoints
-20 Skillpoints
-1 Feat
-1 Power
-1 Flaw
+
+4x Skill Lvl4
+4x Skill Lvl2
+4x Skill Lvl1
+1x Feat Lvl1
+1x Power
+1x Flaw
+
+5 Equipmentslots
 10 Resourcepoints for Equipment and Items
 
-h3. Skills
+h2. Skills
 
-* Resistance[Type] (physical/fire/... think Armor Class for Attacks, Special Abilities and Spells)
-* Stealth (Sneaking, Hiding, ...)
-* Security (Lockpicking, Disabling Devices, ...)
-* Athletics
+* Resistance[Type] (Dodge, Fire, Frost, Shock, Chaos)
+* Stealth (Sneaking, Hiding)
+* Security (Lockpicking, Disabling Devices)
+* Athletics (Jumping, Climbing, Running, Swimming)
+* Survival (Perception, Wilderness, Curing)
 * Knowledge
 * Culture[Type] (Human, Elf, Dwarf, Orc) (works as Diplomacy and Knowledge regarding this culture)
 * Alchemy (item creation)
-* Profession[Type?] (catchall for background story related abilities, that are not handled by other skills)
 * Weapon[Type] (Blunt, Piercing, Edged, Ranged)
-* Cure (healing, curing)
-* Magic[Type] (Summon, Shadow, ...)
+* Magic[Type]
 
-h3. Feats
+h2. Feats
 
 Feats only improve abilities they dont give additional tactical options (negative examples: weapon finesse, power attack)
 
 * Sneak Attack (improves the damage output in cases of combat advantage (+d6 per feat level))
 
-h3. Flaws
+h2. Flaws
 
 Flaws have negative and positive effects and provide the Gamemaster with potential plot hooks.
 (Enemies, Mentor, Organizational ties, ...)
@@ -68,20 +72,20 @@ h2. Setting
 
 Orcs/Elves/Humans/Dwarfs are considered different cultures.
 
-h3. Orc
+Chaos and the associated Demons are a major enemy in this setting.
 
-see Atayal on wikipedia
-
-h3. Magic/Chaos
+h2. Magic/Chaos
 
 Limits of Magic are:
 
 * no time travel
 * no divination
 
-h4. Spells/Powers
+h3. Spells/Powers
 
 You expend Chaos Points to use these.
+
+Note: Clarify difference between Spell and Power
 
 Note: Look into the Universal Monster Rules for inspiration
 
@@ -98,7 +102,79 @@ Examples I want to see:
 The list of spell should be a range of examples generated from abstract rules that are included
 to generate own spells and powers.
 
-h4. Additional Concepts
+h4. Base Parameter
+
+Cost: 1 CP
+Range: Self, Touch (+2), Sight (+4)
+Area: Point, Ball (+2 per m³)
+Preparation: +1 Round (-1) (max skill lvl)
+Duration: Round, Encounter (+4), Day (+8)
+
+h4. Casting
+
+Roll d20 + Skill against 10 + Parametermodifier
+
+If touch or sight ist targeted against a Creature add its Resistance[Dodge] to Parametermodifier
+If spell is also a damage spell add its Resistance[Type] to Parametermodifier too
+
+* Natural 1: Botch 
+* Below DC: Parametermodifier in Chaospoints
+* Above DC: 1 Chaospoint
+* Natural 20: no Chaospoint cost 
+
+h4. Types of Magic
+
+h5. Illusion
+
+spells that alter perception, such as Invisibility and Charm.
+Skill: +5 Stealth (+2)
+Skill: +5 Culture (+2)
+
+h5. Conjuration
+
+spells that summon creatures and equipment from other worlds, such as Bound Items and Summon.
+Summon Daemon: +1 Creature Level (+2)
+
+h5. Alteration
+
+spells that manipulate the laws of nature, such as Water Breathing and Levitation.
+Skill: +5 Athletics (+2)
+Skill: +5 Security (+2)
+
+h5. Destruction
+
+spells that cause physical harm, such as Fire Damage and Damage Attribute.
+Damage[Fire]: +1d6 (+2)
+Damage[Schock]: +1d6 (+2)
+Damage[Frost]: +1d6 (+2)
+Skill: +5 Weapon[Edged] (+2)
+Skill: +5 Weapon[Piercing] (+2)
+Skill: +5 Weapon[Blunt] (+2)
+Skill: +5 Weapon[Ranged] (+2)
+
+h5. Mysticism
+
+spells that shape and focus ethereal forces, such as Telekinesis and Soultrap.
+Damage[Chaos]: +1d6 (+2)
+Skill: -5 Resistance[Chaos] (+2)
+Skill: -5 Resistance[Schock] (+2)
+Skill: -5 Resistance[Frost] (+2)
+Skill: -5 Resistance[Fire] (+2)
+Skill: -5 Resistance[Dodge] (+2)
+Telekinesis: +1kg (+1), +1m/per Round (+1)
+
+h5. Restoration
+
+spells that heal, such as Restore Health and Cure Common Disease.
+Heal: +1d6 HP (+2)
+Cure Disease: +4
+Skill: +5 Resistance[Chaos] (+2)
+Skill: +5 Resistance[Fire] (+2)
+Skill: +5 Resistance[Frost] (+2)
+Skill: +5 Resistance[Shock] (+2)
+Skill: +5 Resistance[Dodge] (+2)
+
+h3. Additional Concepts
 
 * Rituals
 * Item creation
@@ -143,20 +219,26 @@ h5. Power (Skill:[Magictype] + d20 + Boni against Resistance of Enemy)
 h5. Disarm
 
 Condition:
-* an enemy in attack range wields a removable weapon
+* a Creature in attack range wields a removable weapon
 
 Effect:
 * the weapon drops on the ground
 
-h5. Draw Weapon/Equipment
+h5. Draw Equipment
+
+Condition:
+* you have a free hand
+
+Effect:
+* one piece of your equipment is ready to be used
 
 h4. Combat Advantage
 
 Condition: (OR)
-* the enemy cannot see you
-* you are flanking him 
-* he is unable to properly defend himself
-* he did not have his first action this encounter
+* the Creature cannot see you
+* you are flanking the Creature
+* the Creature unable to properly defend himself
+* the Creature did not have his first action this encounter
 
 Effect: +2 on attack rolls
 
@@ -166,14 +248,15 @@ Poisoning cost you Chaos Points
 
 h2. Advancement
 
-Each encounter earns between 1-3 XP. These are summed and
-given by the Gamemaster when the party has downtime (say in towns
-between sessions).
+Each encounter earns between 1-3 Karma.
 
-* 1 Skill (new level in XP)
-* 1 Feat (new level in XP x10)
-* 1 Healthpoints (5 XP)
-* 1 Chaospoints (1 XP)
+These are tracked by the Gamemaster and are available during a long rest.
+
+* 1 Skill (new level in Karma)
+* 1 Feat (new level in Karma x10)
+* 1 Healthpoint (5 Karma)
+* 1 Chaospoint (1 Karma)
+* 1 Equipmentslot (5 Karma)
 
 h2. Equipment & Items
 
@@ -186,23 +269,94 @@ Size (Damage): One-Handed (1d6),  Two-Handed (2d6)
 Weapontype: Edged, Piercing, Blunt, Ranged
 Special: Boni on specific actions, Effects on critical or botched attacks
 
-* Longsword (1H, Edged)
-* Dagger (1H, Piercing/Ranged)
-* Battleaxe (1H, Edged)
-* Staff (2H, Blunt)
-* Battlehammer (1H, Blunt)
-* Bow (2H, Ranged) (out-of-ammo for this encounter on botch)
-* Spear (2H, Piercing/Ranged)
+h4. Edged
+h5. One handed
+* Longsword
+* Battleaxe
+* Goblinsword (1H, Edged) (botch: breaks)
+h5. Two handed
 * Twohanded Axe (2H, Edged)
 * Twohanded Sword (2H, Edged)
-* Goblinsword (1H, Edged) (breaks on botch)
+
+h4. Piercing
+h5. One handed
+* Dagger
+h5. Two handed
+* Spear
+
+h4. Blunt
+h5. One handed
+* Battlehammer
+h5. Two handed
+* Staff
+
+h4. Ranged
+h5. One handed
+* Dagger
+h5. Two handed
+* Spear
+* Bow (botch: out-of-ammo for this encounter)
 
 h3. Potions 
 
 * one time use 
-* most Potions poison you, aka cost you Chaos Points
+* most Potions do Chaos damage to you
 
 h3. Artefacts
 
 * reuseable magic items
 * reduce your maximum chaos points
+
+h2. Resting
+
+h3. Short Rest
+
+It is assumed that the Party rests for 10 minutes after each Encounter.
+Duration: Encounter Powers and Spells work until this.
+
+Effect:
+1d6 Healthpoints are restored.
+
+h3. Day Rest
+
+It is assumed that the Party rests for 8 hours each Day.
+Duration: Day Powers and Spells work until this.
+
+Effect:
+1d6 Chaospoints are restored.
+All Healthpoints are restored.
+
+h3. Long Rest
+
+It is assumed that the Party rest for a week or longer after each Adventure.
+
+Effect:
+All Chaospoints are restored.
+All Healthpoints are restored.
+Earned Karma is given.
+
+h2. Glossary
+
+CP: Chaospoints
+HP: Healthpoints
+Karma: Experience
+RP: Resourcepoints
+Creature: Any sentient being (Monsters, NPC, Daemons, Characters)
+Party: A group of Characters
+Encounter: a fight or a scene during an adventure
+
+h2. TODO
+
+* Rules for retreating from an encounter
+* Travel and Exploration rules
+* Diplomacy
+* Creature generation rules
+* Botch while casting
+* Powers
+* Mysticism: Dispel Magic
+* Resistance[Dodge] vs Resistance[Edged,Piercing,Blunt,Ranged]
+
+h2. Ideas
+
+* Reputation/Glory rules (for example using RP to increase Reputation)
+* Profession skills
