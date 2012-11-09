@@ -83,7 +83,7 @@ Limits of Magic are:
 
 h3. Base Parameter
 
-Range: Self, Touch (+ 2), Sight (+4)
+Range: Self, Touch (+ 2), Sight (+ 4)
 Area: Point, Ball (+ 2 per m^3)
 Preparation: + 1 Round (-1) (max skill lvl)
 Duration: Round, Encounter (+ 4), Day (+ 8)
@@ -91,74 +91,75 @@ Magictype: + 1 Magictype (+ 1)
 
 h3. Casting
 
-Roll d20 + Skill against 10 + Parametermodifier
+Roll d20 + Skill against 10 + Risk
 Skill => lowest involved Magictypeskill
 
-If touch or sight ist targeted against a Creature add its Resistance[Dodge] to Parametermodifier
-If spell is also a damage spell add its Resistance[Type] to Parametermodifier too
+If touch or sight ist targeted against a Creature add its Resistance[Dodge] to Risk
+If spell is also a damage spell add the Creatures Resistance[Type] to Risk aswell
 
-* Natural 1: Botch
-* Below DC: Parametermodifier in Chaospoints (minimum 1)
-* Above DC: 1 Chaospoint
-* Natural 20: no Chaospoint cost 
+Chaospointdamage:
+* Natural 1: Risk x d6
+* Below DC: Risk (minimum 1)
+* Above DC: 1 
+* Natural 20: 0 
 
 h3. Types of Magic
 
 h4. Illusion
 
 spells that alter perception, such as Invisibility and Charm.
-Skill: + 5 Stealth (+ 2)
-Skill: + 5 Culture (+ 2)
+Skill: + 5 Stealth (+ 2 Risk)
+Skill: + 5 Culture (+ 2 Risk)
 
 h4. Conjuration
 
 spells that summon creatures and equipment from other worlds, such as Bound Items and Summon.
-Summon Daemon: + 1 Creature Level (+ 2)
+Summon Daemon: + 1 Creature Level (+ 2 Risk)
 
 h4. Alteration
 
 spells that manipulate the laws of nature, such as Water Breathing and Levitation.
-Skill: + 5 Athletics (+ 2)
-Skill: + 5 Security (+ 2)
+Skill: + 5 Athletics (+ 2 Risk)
+Skill: + 5 Security (+ 2 Risk)
 
 h4. Destruction
 
 spells that cause physical harm, such as Fire Damage and Damage Attribute.
-Damage[Fire]: + 1d6 (+ 2)
-Damage[Schock]: + 1d6 (+ 2)
-Damage[Frost]: + 1d6 (+ 2)
-Skill: + 5 Weapon[Edged] (+ 2)
-Skill: + 5 Weapon[Piercing] (+ 2)
-Skill: + 5 Weapon[Blunt] (+ 2)
-Skill: + 5 Weapon[Ranged] (+ 2)
+Damage[Fire]: + 1d6 (+ 2 Risk)
+Damage[Schock]: + 1d6 (+ 2 Risk)
+Damage[Frost]: + 1d6 (+ 2 Risk)
+Skill: + 5 Weapon[Edged] (+ 2 Risk)
+Skill: + 5 Weapon[Piercing] (+ 2 Risk)
+Skill: + 5 Weapon[Blunt] (+ 2 Risk)
+Skill: + 5 Weapon[Ranged] (+ 2 Risk)
 
 h4. Mysticism
 
 spells that shape and focus ethereal forces, such as Telekinesis and Soultrap.
-Damage[Chaos]: + 1d6 (+ 2)
-Skill: -5 Resistance[Chaos] (+ 2)
-Skill: -5 Resistance[Schock] (+ 2)
-Skill: -5 Resistance[Frost] (+ 2)
-Skill: -5 Resistance[Fire] (+ 2)
-Skill: -5 Resistance[Dodge] (+ 2)
-Telekinesis: + 1kg (+ 1), + 1m/per Round (+ 1)
+Damage[Chaos]: + 1d6 (+ 2 Risk)
+Skill: -5 Resistance[Chaos] (+ 2 Risk)
+Skill: -5 Resistance[Schock] (+ 2 Risk)
+Skill: -5 Resistance[Frost] (+ 2 Risk)
+Skill: -5 Resistance[Fire] (+ 2 Risk)
+Skill: -5 Resistance[Dodge] (+ 2 Risk)
+Telekinesis: + 1kg (+ 1 Risk), + 1m/per Round (+ 1 Risk)
 
 h4. Restoration
 
 spells that heal, such as Restore Health and Cure Common Disease.
-Heal: + 1d6 HP (+ 2)
+Heal: + 1d6 HP (+ 2 Risk)
 Cure Disease: + 4
-Skill: + 5 Resistance[Chaos] (+ 2)
-Skill: + 5 Resistance[Fire] (+ 2)
-Skill: + 5 Resistance[Frost] (+ 2)
-Skill: + 5 Resistance[Shock] (+ 2)
-Skill: + 5 Resistance[Dodge] (+ 2)
+Skill: + 5 Resistance[Chaos] (+ 2 Risk)
+Skill: + 5 Resistance[Fire] (+ 2 Risk)
+Skill: + 5 Resistance[Frost] (+ 2 Risk)
+Skill: + 5 Resistance[Shock] (+ 2 Risk)
+Skill: + 5 Resistance[Dodge] (+ 2 Risk)
 
 h3. Spells
 
 A Spell is a prepackaged effect.
 You cannot modify it when casting and need to expend Karma to learn it.
-But the Parametermodifier is reduced.
+But the Risk is reduced.
 
 Example Spells I want to see:
 
@@ -182,7 +183,7 @@ Basic roll: 1d20+ Skill against DC
 
 h3. Combat
 
-You roll Initiative for each participant (d20 +  Boni).
+You roll Initiative for each participant (d20 + Boni).
 
 20 is an automatic success (and critical hit?).
 1 is a botch.
@@ -208,9 +209,11 @@ Effect:
 
 h5. Charge (move up to 5m and attack with -4)
 
-h5. Attack (Skill:[Weapontype] +  d20 +  Boni against Defense of Enemy)
+h5. Attack
 
-h5. Power (Skill:[Magictype] +  d20 +  Boni against Resistance of Enemy)
+d20 + Skill: Weapon[Type] + Modifier against Resistance[Dodge] of the defender
+
+h5. Casting a Spell
 
 h5. Disarm
 
@@ -244,7 +247,7 @@ Poisoning cost you Chaos Points
 
 h2. Advancement
 
-Each encounter earns between 1-3 Karma.
+Each encounter earns between 1 to 3 Karma.
 
 These are tracked by the Gamemaster and are available during a long rest.
 
