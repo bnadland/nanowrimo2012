@@ -350,3 +350,4 @@ h2. Ideas and Todos
 * Resistance[Dodge] vs Resistance[Edged,Piercing,Blunt,Ranged] ?
 * Reputation/Glory rules (for example using Resourcepoints to increase Reputation) ?
 * Profession skills?
+* Contacts/Friends/Familie member rules?
